@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import jwt from "jsonwebtoken"
 
 const cookieOptions = {
-    maxAge: 15 * 24 * 60 * 60 * 10000,
+    maxAge: 15 * 24 * 60 * 60 * 1000,
     sameSite: "none",
     httpOnly: "true",
     secure: true
